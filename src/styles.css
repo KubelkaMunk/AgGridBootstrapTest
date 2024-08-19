@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cardcontainer {
+  display: flex;
+  justify-content: center;
+  align-content: cbackground: rgb(254,255,253);
+  background: linear-gradient(172deg, rgba(254,255,253,1) 0%, rgba(84,88,114,1) 36%, rgba(122,119,118,1) 96%);enter;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+/* CSS for the Flex Container */
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Use 'column' if you want the grids stacked vertically */
+  height: 100vh; /* Full height of the viewport */
+  gap: 10px; /* Space between the grids */
+  padding: 10px; /* Padding around the container */
+}
+
+/* CSS for the AG Grid Wrapper */
+.flex-grid {
+  flex: 1; /* Make grids take equal space */
+  margin: 0; /* Reset margin, as gap handles spacing */
+  max-width: 50%; /* Max width to 50% of the container */
+  min-width: 300px; /* Minimum width to ensure grids don't get too small */
+}
+
